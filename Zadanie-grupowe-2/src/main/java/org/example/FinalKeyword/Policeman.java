@@ -8,6 +8,6 @@ public class Policeman extends Person {
     // Final methods cannot be overriden
     @Override
     public final void introduce() {
-        System.out.println("Good day , my name is " + this.getFirstName() + " " + this.getLastName() + " and I am a police officer.");
+        System.out.println("Good day, my name is " + this.getFirstName() + " " + this.getLastName() + " and I am a police officer.");
     }
 }
