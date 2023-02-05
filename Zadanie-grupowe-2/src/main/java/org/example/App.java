@@ -1,13 +1,10 @@
 package org.example;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import org.example.Multithreading.DeadlockExample;
+import org.example.Multithreading.SynchronizedCounter;
+
+public class App {
+    public static void main( String[] args ) throws InterruptedException {
+        DeadlockExample.example();
     }
 }
